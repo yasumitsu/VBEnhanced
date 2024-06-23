@@ -1,0 +1,313 @@
+{
+	{
+		Groups = false,
+		LootTableIds = {
+			"SmallContainer",
+		},
+		handle = 495714304,
+		map = "M33otMn",
+		name = 'InventoryItemSpawn#304 "CHEST"',
+		path = "InventoryItemSpawn ",
+		type = "InventoryItemSpawn",
+	},
+	{
+		Groups = false,
+		LootTableIds = {
+			"SmallContainer_Exceptional",
+		},
+		handle = 506118144,
+		map = "M33otMn",
+		name = 'InventoryItemSpawn#144 "Bag"',
+		path = "InventoryItemSpawn ",
+		type = "InventoryItemSpawn",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1022740033,
+		items = {},
+		map = "M33otMn",
+		name = "UnitMarker#033 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1027326642,
+		items = {},
+		map = "M33otMn",
+		name = "UnitMarker#642 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1078859030,
+		items = {},
+		map = "M33otMn",
+		name = "UnitMarker#030 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1161868653,
+		items = {},
+		map = "M33otMn",
+		name = "UnitMarker#653 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1181327617,
+		items = {},
+		map = "M33otMn",
+		name = "UnitMarker#617 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"BeastSpawn3",
+		},
+		handle = 1224098109,
+		items = {
+			{
+				editor_view_abridged = "if not BeastDead and BeastRecruited",
+				filter_type = "quest",
+				reference_id = "Beast",
+				type = "QuestIsVariableBool",
+				var = set({
+	BeastDead = false,
+	BeastRecruited = true,
+}),
+			},
+			{
+				editor_view_abridged = "if Randomizer == 3 ",
+				filter_type = "quest",
+				reference_id = "Beast",
+				type = "QuestIsVariableNum",
+				var = "Randomizer",
+			},
+		},
+		map = "M33otMn",
+		name = "UnitMarker#109 (BeastSpawn3)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1249268436,
+		items = {},
+		map = "M33otMn",
+		name = "UnitMarker#436 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1296710181,
+		items = {},
+		map = "M33otMn",
+		name = "UnitMarker#181 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"BeastSpawn1",
+		},
+		handle = 1352545374,
+		items = {
+			{
+				editor_view_abridged = "if not BeastDead and BeastRecruited",
+				filter_type = "quest",
+				reference_id = "Beast",
+				type = "QuestIsVariableBool",
+				var = set({
+	BeastDead = false,
+	BeastRecruited = true,
+}),
+			},
+			{
+				editor_view_abridged = "if Randomizer == 1 ",
+				filter_type = "quest",
+				reference_id = "Beast",
+				type = "QuestIsVariableNum",
+				var = "Randomizer",
+			},
+		},
+		map = "M33otMn",
+		name = "UnitMarker#374 (BeastSpawn1)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1459443135,
+		items = {},
+		map = "M33otMn",
+		name = "UnitMarker#135 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = false,
+		SpecificBanters = {
+			"MiddleOfXWhere_Legion",
+		},
+		handle = 1480796524,
+		map = "M33otMn",
+		name = "Position#524",
+		path = "Position ",
+		type = "Position",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1589795822,
+		items = {},
+		map = "M33otMn",
+		name = "UnitMarker#822 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1606326811,
+		items = {},
+		map = "M33otMn",
+		name = "UnitMarker#811 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1650665862,
+		items = {},
+		map = "M33otMn",
+		name = "UnitMarker#862 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1653574119,
+		items = {},
+		map = "M33otMn",
+		name = "UnitMarker#119 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		ApproachedBanters = {
+			"XwhereFraBaggz01_approach",
+		},
+		BanterGroups = {
+			"Banters_Local_MiddleOfWhere",
+		},
+		Groups = false,
+		handle = 1661041582,
+		items = {},
+		map = "M33otMn",
+		name = "UnitMarker#582",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"BeastSpawn2",
+		},
+		handle = 1670666397,
+		items = {
+			{
+				editor_view_abridged = "if not BeastDead and BeastRecruited",
+				filter_type = "quest",
+				reference_id = "Beast",
+				type = "QuestIsVariableBool",
+				var = set({
+	BeastDead = false,
+	BeastRecruited = true,
+}),
+			},
+			{
+				editor_view_abridged = "if Randomizer == 2 ",
+				filter_type = "quest",
+				reference_id = "Beast",
+				type = "QuestIsVariableNum",
+				var = "Randomizer",
+			},
+		},
+		map = "M33otMn",
+		name = "UnitMarker#397 (BeastSpawn2)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1728966166,
+		items = {},
+		map = "M33otMn",
+		name = "UnitMarker#166 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1833594990,
+		items = {},
+		map = "M33otMn",
+		name = "UnitMarker#990 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1840986917,
+		items = {},
+		map = "M33otMn",
+		name = "UnitMarker#917 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+	{
+		Groups = {
+			"Legion_TreasureHunters",
+		},
+		handle = 1889499735,
+		items = {},
+		map = "M33otMn",
+		name = "UnitMarker#735 (Legion_TreasureHunters)",
+		path = "UnitMarker ",
+		type = "UnitMarker",
+	},
+}
