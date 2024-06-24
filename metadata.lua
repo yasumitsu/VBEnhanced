@@ -2,12 +2,15 @@ return PlaceObj('ModDef', {
 	'title', "Vanilla Battles Enhanced",
 	'description', "[h1]Vanilla Battles Enhanced[/h1]\n[h3]Features[/h3]\n[list]\n    [*]Sanatorium underground H12_U\n    [*]Biff Siege A8\n    [*]Port Cacao City Invasion L8\n	[*]Abusers H9, C5, D6\n	[*]Expanded grids to several sectors\n[/list]\n[h3]Mechanics[/h3]\n[list]\n    [*]Increases the challenge for some of Vanilla Battles\n    [*]The mod only provides more units or squads to areas, does not affect equipment or AI tactics/behavior\n[/list]\n[i]Feel free to request new battle to be enhanced or grid to be expanded[/i]\n[hr][/hr]\n[h3]Related Mods[/h3]\n[list]\n	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3238546616] Random Attack [/url]\n	[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=3238563037] Diamond Briefcase Enhanced [/url]\n[/list]",
 	'image', "Mod/BattlesExpanded/Images/Screenshot 2024-04-30 184007.jpg",
-	'last_changes', "- small tweak B2",
+	'external_links', {
+		"https://github.com/yasumitsu/VBEnhanced",
+	},
+	'last_changes', "- fixed A2 passability",
 	'id', "BattlesExpanded",
 	'author', "kenji",
 	'version_major', 1,
 	'version_minor', 2,
-	'version', 514,
+	'version', 519,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -17,7 +20,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1719184701,
+	'saved', 1719219353,
 	'code_hash', -5414676323313874007,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
@@ -67,12 +70,12 @@ return PlaceObj('ModDef', {
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
-			'Id', "HotDiamonds_A2",
+			'Id', "HotDiamonds_A20",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
 			'Class', "ModItemSector",
-			'Id', "HotDiamonds_A20",
+			'Id', "HotDiamonds_A2",
 			'ClassDisplayName', "Satellite sector",
 		}),
 		PlaceObj('ModResourcePreset', {
