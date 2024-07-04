@@ -456,6 +456,7 @@ return {
 					'BlockTravel', {
 						East = false,
 						North = true,
+						South = false,
 						West = false,
 					},
 					'image', "UI/SatelliteView/SectorImages/A02",
@@ -1062,7 +1063,10 @@ return {
 						"B2Initial",
 					},
 					'bidirectionalRoadApply', true,
-					'Roads', set( "East", "North" ),
+					'Roads', set({
+	East = false,
+	North = true,
+}),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
@@ -1136,7 +1140,11 @@ return {
 						"legionSquad",
 					},
 					'bidirectionalRoadApply', true,
-					'Roads', set( "East", "South", "West" ),
+					'Roads', set({
+	East = false,
+	South = false,
+	West = false,
+}),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
@@ -1166,8 +1174,8 @@ return {
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = false,
-	South = true,
-	West = true,
+	South = false,
+	West = false,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
@@ -1616,7 +1624,7 @@ return {
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = false,
-	North = true,
+	North = false,
 }),
 					'bidirectionalBlockApply', true,
 					'image', "UI/SatelliteView/SectorImages/C03",
@@ -1652,9 +1660,9 @@ return {
 					},
 					'bidirectionalRoadApply', true,
 					'Roads', set({
-	East = true,
-	North = true,
-	South = true,
+	East = false,
+	North = false,
+	South = false,
 	West = false,
 }),
 					'bidirectionalBlockApply', true,
@@ -2322,7 +2330,7 @@ return {
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = false,
-	North = true,
+	North = false,
 	South = true,
 }),
 					'bidirectionalBlockApply', true,
@@ -2348,7 +2356,7 @@ return {
 					'bidirectionalRoadApply', true,
 					'Roads', set({
 	East = true,
-	North = true,
+	North = false,
 	South = true,
 	West = false,
 }),
@@ -5357,7 +5365,11 @@ return {
 					'WeatherZone', "SavannahSouth",
 					'Passability', "Land and Water",
 					'bidirectionalRoadApply', true,
-					'Roads', set( "East", "North" ),
+					'Roads', set({
+	East = true,
+	North = true,
+	South = false,
+}),
 					'bidirectionalBlockApply', true,
 					'image', "UI/SatelliteView/SectorImages/I07",
 					'awareness_sequence', "Skip Setpiece",
@@ -5797,11 +5809,13 @@ return {
 					'Roads', set({
 	East = false,
 	North = true,
+	West = false,
 }),
 					'bidirectionalBlockApply', true,
 					'BlockTravel', set({
 	East = false,
 	North = false,
+	West = true,
 }),
 					'image', "UI/SatelliteView/SectorImages/J08",
 					'Port', true,
@@ -6768,10 +6782,12 @@ return {
 					'bidirectionalRoadApply', true,
 					'Roads', {
 						East = false,
+						North = false,
 					},
 					'bidirectionalBlockApply', true,
 					'BlockTravel', {
 						East = false,
+						North = true,
 						South = true,
 						West = false,
 					},

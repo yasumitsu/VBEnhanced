@@ -5,12 +5,12 @@ return PlaceObj('ModDef', {
 	'external_links', {
 		"https://github.com/yasumitsu/VBEnhanced",
 	},
-	'last_changes', "- fixed A2 passability",
+	'last_changes', "- fixed G10 passability",
 	'id', "BattlesExpanded",
 	'author', "kenji",
 	'version_major', 1,
 	'version_minor', 2,
-	'version', 519,
+	'version', 522,
 	'lua_revision', 233360,
 	'saved_with_revision', 350233,
 	'code', {
@@ -20,7 +20,7 @@ return PlaceObj('ModDef', {
 	},
 	'default_options', {},
 	'has_data', true,
-	'saved', 1719219353,
+	'saved', 1720101961,
 	'code_hash', -5414676323313874007,
 	'affected_resources', {
 		PlaceObj('ModResourcePreset', {
